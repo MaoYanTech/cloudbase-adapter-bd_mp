@@ -1,5 +1,5 @@
 # cloudbase-adapter-bd_mp
-[腾讯云服务（tcb-js-sdk）](https://cloud.tencent.com/product/tcb?from=12334)字节跳动小程序适配器
+[腾讯云服务（tcb-js-sdk）](https://cloud.tencent.com/product/tcb?from=12334)百度智能小程序适配器
 
 ## 安装
 ```bash
@@ -8,8 +8,8 @@ npm i @maoyan/cloudbase-adapter-bd_mp -S
 
 ## 使用
 
-由于字节跳动小程序没有提供getAccountInfoSync()接口,无法通过接口获取appId
-所以需要将appId设置到字节跳动小程序app对象上
+由于百度智能小程序没有提供getAccountInfoSync()接口,无法通过接口获取appId
+所以需要将appId设置到小程序app对象上
 
 ```
 App({
@@ -22,7 +22,7 @@ App({
 ### ES Module
 ```javascript
 import tcb from 'tsb-js-sdk';
-import adapter from 'cloudbase-adapter-b'd_mp';
+import adapter from 'cloudbase-adapter-bd_mp';
 
 // 以下两种方式二选一
 // 1.单参数传入
